@@ -1,4 +1,11 @@
 
+Triplet Loss is a self-supervised technique introduced in FaceNet for facial recognition. It has been used in One Shot Learning Siamese Network for facial recognition.
+It has not been used for directly into Word-Embeddings.
+The idea is to use this loss from FaceNet to obtain better clustering by building a cost function which minimizes the distance(Euclidean generally) between (Anchor, Positive) and maximizes distance between (Anchor, Negative), keeping a margin 'alpha' 
+so to avoid embeddings collapse.
+
+
+
 # Table of Content
 
 --> Data Pre-Processing<br>
